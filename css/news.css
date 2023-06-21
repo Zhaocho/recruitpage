@@ -131,14 +131,10 @@
   padding: 0px 10px;
   font-size: 1.2em;
 }
-/* iframe{
+iframe{
   width: 70%;
   height:80vh;
-} */
-object {
-  width: 70%;
-  height: 80vh;
-}
+} 
 .pdf-embed {
   width: 100%;
   height: 100vh;
@@ -170,16 +166,10 @@ object {
     padding: 5px;
     font-size: 16px;
   }
-  /* iframe{
+  iframe{
     width: 95%;
     height: 80vh;
-  } */
-
-  .emble-pdf{
-    width: 100%;
-    height: 500px;;
-    overflow: auto;
-  }
+  } 
 }
 
 @media screen and (max-width: 415px) {
