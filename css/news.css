@@ -193,13 +193,13 @@ iframe{
     border-left: 5px solid #EB456F;
   }
   #news-file{
-    width: 100%;
+    width: 80%;
   }
   .pdf-embed{
-    width: 100%;
+    width: 80%;
   }
   .pdf-embed iframe{
-    width: 100%;
+    width: 80%;
   } 
 
 }
