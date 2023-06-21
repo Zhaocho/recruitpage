@@ -131,9 +131,13 @@
   padding: 0px 10px;
   font-size: 1.2em;
 }
-iframe{
+/* iframe{
   width: 70%;
   height:80vh;
+} */
+embed {
+  width: 70%;
+  height: 80vh;
 }
 .pdf-embed {
   width: 100%;
@@ -166,24 +170,43 @@ iframe{
     padding: 5px;
     font-size: 16px;
   }
-  iframe{
+  /* iframe{
+    width: 95%;
+    height: 80vh;
+  } */
+  embed{
     width: 95%;
     height: 80vh;
   }
 
   .emble-pdf{
     width: 100%;
-    height:80vh;
+    height: 500px;;
     overflow: auto;
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 415px) {
+  #news-file {
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+  .added-text{
+    text-align: center;
+  }
 
   .pdf-embed{
-    width: 80%;
+    margin: 0;
+    width: 90%;
   }
-  .pdf-embed iframe {
-    width: 80%;
+  .pdf-embed embed {
+    margin: 0;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
   }
+  
 }
