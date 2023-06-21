@@ -176,7 +176,7 @@ embed {
   } */
   embed{
     width: 90%;
-    height: 70vh;
+    height: auto;
   }
 
   .emble-pdf{
@@ -187,6 +187,10 @@ embed {
 }
 
 @media screen and (max-width: 415px) {
+  embed{
+    width: 80%;
+    height: auto;
+  }
   .pdf-embed embed {
     justify-content: center;
     align-items: center;
