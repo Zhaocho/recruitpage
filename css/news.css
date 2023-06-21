@@ -198,8 +198,9 @@ iframe{
   .pdf-embed{
     width: 80%;
   }
-  .pdf-embed iframe{
+  .pdf-embed iframe {
     width: 80%;
-  } 
+    height: 80%;
+  }
 
 }
