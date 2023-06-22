@@ -138,6 +138,7 @@ iframe{
 object{
   width: 70%;
   height:500px;
+  margin-top: 20px;
 } 
 
 .pdf-embed {
@@ -193,7 +194,7 @@ object{
     height: calc(50vh - 200px); /* 適宜調整してください */
   }
 
-  .pdf-embed embed {
+  .pdf-embed{
     justify-content: center;
     align-items: center;
   }
