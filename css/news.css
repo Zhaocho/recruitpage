@@ -184,11 +184,11 @@ object{
 @media screen and (max-width: 415px) {
   iframe{
     width: 95%;
-    height: 40vh;
+    height: auto;
   }  
   object{
     width: 95%;
-    height: 40vh;
+    height: auto;
   };
 
   .pdf-embed embed {
