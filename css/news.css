@@ -171,13 +171,26 @@ object{
     padding: 5px;
     font-size: 16px;
   }
-  /* iframe{
+  iframe{
     width: 95%;
     height: 80vh;
-  }  */
+  }  
+  object{
+    width: 95%;
+    height: 80vh;
+  };
 }
 
 @media screen and (max-width: 415px) {
+  iframe{
+    width: 95%;
+    height: 40vh;
+  }  
+  object{
+    width: 95%;
+    height: 40vh;
+  };
+
   .pdf-embed embed {
     justify-content: center;
     align-items: center;
